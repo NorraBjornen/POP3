@@ -1,0 +1,65 @@
+Delivered-To: brayonairwing@mail.ru
+Return-path: <drr1se.am@gmail.com>
+Received-SPF: pass (mx33.mail.ru: domain of gmail.com designates 209.85.217.54 as permitted sender) client-ip=209.85.217.54; envelope-from=drr1se.am@gmail.com; helo=mail-vs1-f54.google.com;
+Received: from mail-vs1-f54.google.com ([209.85.217.54]:37562)
+	by mx33.mail.ru with esmtp (envelope-from <drr1se.am@gmail.com>)
+	id 1jYRnz-00056g-PG
+	for brayonairwing@mail.ru; Tue, 12 May 2020 13:06:32 +0300
+Received: by mail-vs1-f54.google.com with SMTP id l25so7469140vso.6
+        for <brayonairwing@mail.ru>; Tue, 12 May 2020 03:06:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=KewiSASG4VuGH4AWniKfYvjhfUxDRDh2FA/CMI69ZmE=;
+        b=YLV6mxgvSBBeJtebYucirDO+p3iwfdt60ykdQlIQZFDXmOAhBDeDumWbY4o+krfNGu
+         XIU3NLhArUQJALOxyFky1D8IlO2jbKw76h0yspNM2uw0kfSfH6oh4H4pv6K58JR+Go8v
+         FW4q6cSROQmFe1imT97E5FBb8HZhyIA4SfF9Q4qkE0f7luoxuBp3U7OFnwhVjFxaGZtn
+         Z+SdBFXwvcGR+v7CoMWx1VGS3AxR4DlAps+o2ggc52N4VjGyHe2FfkmjKhwEaWZT6CRv
+         dhwN37Ysh5rrAhRl981+rLLGGTYhFw2RGLrGKFbGUBktrtqmUTrDD5DfOVttvUql+oYl
+         /X8g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=KewiSASG4VuGH4AWniKfYvjhfUxDRDh2FA/CMI69ZmE=;
+        b=izvsa9NRp0cxwCrIbRdoDi02PuGrYj46C/KJOMT9W+ryz03shhAo/bbPaWfx0UoVRy
+         ePb4sintZyrCqMJKeeJ5zy8rXkFxVilmopJkZMAWSV03D5CPek+xnuuECiSaIeZ4072g
+         bYau5mvkwGRCq4rp7f+BMmGi42Dz5ZOk9KR5LEiIxXl8AyMqwE7htEXIrTGRz6dKZJDp
+         QwJHZ9c1jFYBkaVqf6er0y/rwlJATe4AYA80t/53xgLlp6DNlSOos1hknoF8OrUswrOI
+         OLVwj31W9GF8fTY+/+zuv7Gms1iU9hyFiS6WPgwprmKTii1BmpHQBUYwOTrmTuu90aVe
+         D9kg==
+X-Gm-Message-State: AGi0Puad+jCIBoqBITQFPA4AybxpK1DCMEQke5qeBV45JZwp1SpItlEq
+	vP5rX7PxBHolvn9XdujNtGwcd6iuHxHfPVRNsCeTeYZb
+X-Google-Smtp-Source: APiQypLoX4frmq//2TUINCovsu2rROCMw0dZ6RC07vas2lwXHwEPpGL0H0kgcPqmsjlN7gOkdV1KFHrbBBLIq7r9ryQ=
+X-Received: by 2002:a67:e9d9:: with SMTP id q25mr15178388vso.27.1589277990756;
+ Tue, 12 May 2020 03:06:30 -0700 (PDT)
+MIME-Version: 1.0
+From: =?UTF-8?B?0JDQu9C10LrRgdC10Lk=?= <drr1se.am@gmail.com>
+Date: Tue, 12 May 2020 15:06:19 +0500
+Message-ID: <CAJvv_fXYrAOdfDO9=fTvwHn3+aoQ9ww24Q5LD392TZoTx1eUwg@mail.gmail.com>
+Subject: 
+To: brayonairwing@mail.ru
+Content-Type: multipart/alternative; boundary="00000000000016a39705a5709e76"
+X-7564579A: B8F34718100C35BD
+X-77F55803: 2AE3CB71FB232A48A2EE35046ED1CA46D065BFE6A7F09A9CFE5A3EBC9739A490344450125E37F64B8F81C203A1D59621F4DE7991F6D4DA09
+X-7FA49CB5: FF5795518A3D127A4AD6D5ED66289B5259CC434672EE6371C2A783ECEC0211AD4AD6D5ED66289B524E70A05D1297E1BBAC83A81C8FD4AD239742502CCDD46D0D5C553DABC76643498638F802B75D45FF5571747095F342E8A1F47976AA9FA43113377AFFFEAFD2691661749BA6B97735BAE4FEAD5B141562D8FC6C240DEA7642B4D9232B6BAE5DD4C7CA80CC9C0F8E4B725E5C173C3A84C3EA7858F8961BFE1A2A9DFC76A0098023F004C9065253843049FC4BF11D892D8E93CC2CDA11D43DCDA18204E546F3947C7893FB2F108C49E4AA431EFA5ECE908FA49D2DD0114DE789395957E7521B51C223DC7C845F35F3B2748D6DAA7CDC32930A2F56AC29C3FF1F4EB50C77C9CF90263D18E9B272DCF130D80772577C4BD62590DFB3F14B651C5A1B59CA4C82EFA6584DE9E9966FF02CC87DC4DD91F262CA0DF6B57BC7E64490618DEB871D839B73339E8FC8737B5C2249D082881546D93491CC7F00164DA146DAFE8445B8C89999725571747095F342E8C26CFBAC0749D213D2E47CDBA5A9658378DA827A17800CE71AE4D56B06699BBC9FA2833FD35BB23DF004C90652538430E4A6367B16DE6309
+X-D57D3AED: 3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZVKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6fImhcD4MUrOEAnl0W826KZ9Q+tr59cQFxbtK52n3Ibb91comNrwTDbZjg0ktGWyd3ZwR5M2G0g+gzS0PKeJDOBrL//rLYldd2avYxhfs9M+DuXTOBSH/SnnzuO3dUdTEydar/8efXUlVNrQsmyz2mI6DMhz3w==
+X-F696D7D5: IjAj1acq623oeAc4ZF6EkSdG95FFT5O+sbX7Ng3rZavP34IHg97lSo68naEgQHja
+X-Mailru-Dmarc-Auth: dmarc=pass header.from=drr1se.am@gmail.com
+X-Mras: Ok
+X-Spam: undefined
+Authentication-Results: mxs.mail.ru; spf=pass (mx33.mail.ru: domain of gmail.com designates 209.85.217.54 as permitted sender) smtp.mailfrom=drr1se.am@gmail.com smtp.helo=mail-vs1-f54.google.com;
+	 dkim=pass header.d=gmail.com; dmarc=pass header.from=drr1se.am@gmail.com
+X-Mailru-Intl-Transport: d,1da1228
+
+--00000000000016a39705a5709e76
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+0J/RgNC40LLQtdGCDQo=
+--00000000000016a39705a5709e76
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGRpdiBkaXI9Imx0ciI+0J/RgNC40LLQtdGCPC9kaXY+DQo=
+--00000000000016a39705a5709e76--
+.
