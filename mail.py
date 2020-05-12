@@ -33,7 +33,6 @@ def main(host_addr, port, user_name, password, number=None):
                 print(f"Получение письма №{number}...")
 
             request(client, f'RETR {number}')
-            # print(request(client, 'TOP 1 10'))
 
             full_mail = ""
             while True:
