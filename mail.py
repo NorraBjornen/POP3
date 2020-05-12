@@ -45,7 +45,7 @@ def main(host_addr, port, user_name, password, number=None):
             parse(full_mail, client)
     except Exception as e:
         if str(e) == "'Content-Type'":
-            main('pop.mail.ru', 995, 'brayonairwing@mail.ru', 'Deepundo99', number)
+            main(host_addr, port, user_name, password, number)
         else:
             print(e)
 
